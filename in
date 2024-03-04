@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Starfish Beach</title> 
+        <style> body {
+             background-color: 
+             #4e8ea5; color: #ffffff; 
+             font-family: Arial, 
+             sans-serif; 
+             text-align: center; } 
+        .header { 
+            padding: 20px; 
+            background-color: #193d5d; } 
+        h1 { font-size: 36px; margin-bottom: 10px; } 
+        p { font-size: 18px;
+             margin-bottom: 20px; } 
+        .starfish-image { width: 500px; 
+            height: 500px; 
+            background-image: url('lone-starfish-wide.jpg'); 
+        background-size: cover; 
+        background-position: center;
+         background-repeat: no-repeat; 
+         margin: 0 auto; 
+         border: 10px solid #ffffff; 
+         border-radius: 50%; 
+         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); } 
+         </style> 
+         
+        </head>
+         <body> 
+            <header class="header"> 
+                <h1>Welcome to Starfish Beach</h1>
+                 <p>Experience the beauty of the starfish in a serene beach setting
+                    .</p> 
+                </header> 
+                <div class="lone-starfish.jpg">
+
+                </div>
+             </body> 
+             </html>
