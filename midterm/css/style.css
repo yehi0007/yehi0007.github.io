@@ -1,24 +1,39 @@
+body {
+    background-color:  lightblue;
+} 
+
+#header-image{
+
+    width: 100%;
+    height: 50vh; /* 100% of the viewport height */
+    object-fit: cover
+
+}
+
 .important-section {
-    background-color: aquamarine;
+    background-color: beige;
     position: relative;
-    width: 1025px;
+    width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    text-align: center;
+    margin-left: 253px;
+    margin-top: -20px;
+
        
     }
     .container{
-    width: 1000px;
+    width: 960px;
     margin-left:auto;
     margin-right:auto;
-    width: 70%;
     overflow: hidden;
     background-color: beige;
-    padding: 75px;
+    padding: 20px;
     }
     .site-title{
         position: absolute;
         top: 22%;
         left: 37%;
+        margin-top: 80px;
         color: white;
         background-color: transparent;
         font-size: 58px;
@@ -27,9 +42,24 @@
     /*here is the most important styles to my websit*/
 
     .content-container{
-        margin: left auto;
-        width: 975px;
+        width: 800px;
+        margin-left:auto;
+        margin-right:auto;
+        width: 56%;
+        overflow: hidden;
+        background-color: beige;
+        padding: 80px;
+        margin-top: -50px;
+
+
     }
+
+    #subheader{
+     margin-left: -10px;
+
+    }
+
+
     #article-image{
         max-width: 200px;
         float: left;
@@ -72,15 +102,15 @@
     }
     
     #name{
-        width: 970px;
+        width: 800px;
     }
     
     #email{
-        width: 970px;
+        width: 800px;
     }
     
     #message{
-        width: 970px;
+        width: 800px;
     }
     
     .send-button {
@@ -89,16 +119,44 @@
         margin: 0 auto; 
     }
     
+    .my-facts{
+
+        width: 800px;
+        margin-left:auto;
+        margin-right:auto;
+        width: 56%;
+        overflow: hidden;
+        background-color: beige;
+        padding: 80px;
+        margin-top: -160px;
+
+    }
+
+      .background-section{
+        width: 800px;
+        margin-left:auto;
+        margin-right:auto;
+        width: 56%;
+        overflow: hidden;
+        background-color: beige;
+        padding: 80px;
+        margin-top: -160px; 
+
+    }
 
 
     #footer{
         position: relative;
         text-align: right;
-        margin-right: 7px;
-        bottom: 0;
+        margin-right:340px;
+        bottom: -100px;
         padding: 0.6px;
-        width: 1025px;
+        width: 590px;
+        margin-top: -180px;
+       
+         
+
     }
     
     
-    
+   
