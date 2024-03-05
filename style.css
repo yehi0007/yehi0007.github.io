@@ -1,5 +1,3 @@
-/* Identify and modify some of the standard styles on the website */
- 
 .background-section {
     background-color: aquamarine;
     position: relative;
@@ -29,8 +27,7 @@
     /*here is the most important styles to my websit*/
 
     .content-container{
-        margin left: auto;
-       
+        margin: left auto;
         width: 975px;
     }
     #article-image{
