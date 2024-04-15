@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.holder {
+    width: 100%;
+    max-width: 1000px;
+    padding: 18px;
+    margin: 0 auto;
+}
+
+.menuebar {
+    background-color: #363636;
+}
+
+.menuebar .holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.menuebar .branding {
+    width: 80px;
+}
+
+.menuebar {
+    width: 100%;
+}
+
+.menuebar nav {
+    align-items: center;
+    display: inline-flex;
+    margin-right: 13px;
+}
+
+.menuebar nav ul {
+    align-items: center;
+    display: inline-flex;
+    margin-right: 13px;
+    list-style: none;
+}
+
+.menuebar nav ul a {
+    width: 100%;
+    height: 100%;
+    padding: 12px 18px;
+    border-bottom: none;
+    color: #c8890c;
+}
+
+.menuebar nav ul a.diffrent {
+    color:  #363636 ;
+    background-color: #c8890c;
+}
+
+.menuebar .search-input {
+    display: inline-flex;
+}
+
+.menuebar.search-input input {
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 18px;
+}
+
+.navbar .search-input label {
+    margin: 17px 0; 
+    line-height: 35px; 
+    font-size: 18px; 
+    border: 1px solid #c8890c;
+    color: #c8890c;
+    user-select: none;
+}
+
+.menuebar .search-input svg {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .menuebar .holder {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+
+    .menuebar .main-banner-image {
+        width: 50%;
+    }
+
+    .menuebar .branding {
+        background-color: #c8890c;
+        width: 400px;
+        padding: 0 12px;
+    }
+
+    .menuebar nav {
+        margin-top: 0;
+        display: block;
+        width: 400px;
+    }
+
+    .menuebar nav ul li {
+        width: 400px;
+        display: inline-block;
+    }
+
+    .menuebar nav ul {
+        margin-top: 0;
+        display: block;
+        width: 400px;
+    }
+
+    .menuebar nav .search-input {
+        width: 350px;
+    }
+
+    .menuebar nav .search-input input {
+        width: 100%;
+    }
+    .menuebar nav ul a {
+        width: 400px;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .custom-grid {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      .custom-grid th,
+      .custom-grid td {
+        border: 1px solid #000000; /* Change border color to black */
+        text-align: left;
+        padding: 8px;
+      }
+      
+      .custom-grid th {
+        background-color: #f2f2f2;
+      }
+
+
+@media screen and (max-width: 768px) {
+    .contact-section {
+        grid-template-areas: 'form hours map';
+    }
+}
+
+.final-content {
+    background-color: #2d2c2c;
+    color: #cc8e11;
+    margin-bottom: 8px; 
+}
+}
